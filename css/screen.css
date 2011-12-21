@@ -1,11 +1,150 @@
+@font-face {
+	font-family: 'TangerineRegular';
+	src: local('☺'), url('../fonts/tangerine_regular-webfont.woff') format('woff'), url('../fonts/tangerine_regular-webfont.ttf') format('truetype'), url('../fonts/tangerine_regular-webfont.svg#webfontgHA5Vu3P') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {height:100%;}
+
 body {
     background-color: #406B2E;
     background-repeat: no-repeat;
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5CD12E), to(#406B2E)) fixed;
     background: -moz-linear-gradient(100% 100% 90deg, #406B2E, #5CD12E);
+    margin:0;
+    width:100%;
+    height:100%;
+    font-size: 80%;
 }
 
-h1 {
-    text-align: center;
-    color: #fff;
+a {color:#234B7B;}
+p,h1,h2,h3,h4,h5,h6,h7,div {margin:0; padding:0;}
+
+#card {
+    width: 920px;
+    height: 630px;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
 }
+
+section {
+    width:420px; 
+    height:550px;
+    background-color:#fff;
+    background: -webkit-gradient(linear, 0% 0%, 5% 0%, from(#DFDFDF), to(#FFF));
+    background: -moz-linear-gradient(left, #DFDFDF, #FFF 5%, #FFF);
+    text-align:center; 
+    color:#262626; 
+    padding: 40px 20px;
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px;
+    -o-box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#frontpage {
+    z-index: 3;
+    cursor:pointer;   
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 1s ease-in;
+    -webkit-transform: rotateY(0deg);
+    -webkit-transform-origin: 0 0;
+    -webkit-transition-property: -webkit-transform, -webkit-transform-origin;
+}
+
+#firstinnerpage {
+    z-index: 2;
+    cursor:pointer;   
+    background: -webkit-gradient(linear, 0% 0%, 5% 0%, from(#DFDFDF), to(#FFF));
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 1s ease-out;
+    -webkit-transform: rotateY(-90deg);
+    -webkit-transform-origin: 0 0;
+    -webkit-transition-property: -webkit-transform, -webkit-transform-origin;
+}
+
+#secondinnerpage {
+  z-index: 1;
+}
+
+#secondinnerpage .deartelegraph {
+  margin-top: 40px;
+}
+
+#secondinnerpage p {
+  margin-bottom: 1em;
+  font-size: 1.5em;
+}
+
+#secondinnerpage h3 {
+  margin: 3em 0;
+  font-size: 1.8em;
+  line-height: 1.7em;
+}
+
+.audiocontrols {
+  margin: 20px auto 70px;
+  width: 98px;
+}
+
+.audiocontrols .label {
+  clear: both;
+  font-size: 0.9em;
+  color: #777;
+  font-family: arial, sans-serif;
+  padding-top: 7px;
+}
+
+.audiocontrols a {
+  display: block;
+  border: 1px solid #666;
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+  -webkit-background-clip: content-box;
+  -webkit-background-origin: padding-box;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), color-stop(0.5, #ccc), to(#eee));
+  box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+  -o-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px; 
+  float: left;
+  color: #000;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 1.2em;
+  text-shadow: #aaa 2px 2px 2px;
+  margin: 0 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.audiocontrols a.disabled {
+  color: #777;
+  cursor: default;
+}
+
+#secondinnerpage .signature {
+  font-family: TangerineRegular, serif;
+  font-size: 2em;
+}
+
+#secondinnerpage footer p {
+  font-size: 1.2em;
+}
+
+#frontpage h1 {font-size:4em; font-weight:bold;}
+
+.logointro {font-family:TangerineRegular,serif; font-size:3em; margin-top:10px;}
+.instructions {font-size: 1.2em; font-family:georgia,'times new roman',serif; text-align:left; padding-left:50px;}
+.instructions li {margin-top:20px;}
+.instructions .arrow {font-family:helvetica; font-weight:bold;}
+
+#tree {margin-top:50px; width:300px; height:300px;}
+
+

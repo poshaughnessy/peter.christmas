@@ -1,28 +1,69 @@
 <!DOCTYPE html>
 <!--
   Peter O'Shaughnessy
-  December 2011.
+  December 2010.
   Please email me with any queries: peter.oshaughnessy@gmail.com
 -->
+<!-- manifest="cache.manifest" -->
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta charset="utf-8"/>
-    <title>Merry Christmas!</title>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <title>Merry Xmas!</title>
     <link href="css/screen.css" rel="stylesheet" type="text/css"/>
-    
+    <link rel="apple-touch-icon" href="images/ios-home-icon.png" />
+
     <!-- From Seb Lee-Delisle and mr. doob -->
     <script src="js/Three.js" type="text/javascript"></script>
     <script src="js/Snow.js" type="text/javascript"></script>
-    
+
     <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
   </head>
   <body>
-    
-    <h1>Merry Christmas Pearson!</h1>
 
+    <div id="card">
 
+      <section id="frontpage">
+	
+	      <p class="logointro">A Christmas card for...</p>
+	      <h1>Pearson</h1>
+	      
+	      <canvas id="tree" width="300" height="300"></canvas>
+
+        <ul class="instructions">
+	        <li>For Chrome, Safari or Firefox - desktop or iPad</li>
+	      
+	        <li>Open by clicking, swiping, or pressing <span class="arrow">→</span></li>
+        </ul>
+	      
+      </section>
+      
+      <section id="firstinnerpage">
+      </section>
+      
+      <section id="secondinnerpage">
+	      
+	      <p class="deartelegraph">Dear Pearson colleagues,</p>
+	      
+	      <h3>Wishing you a very merry Christmas<br/>
+          and a joyful New Year</h3>
+	      
+        <div class="audiocontrols">
+          <audio id="song" src="media/Jingle_Bells_Jazzy.mp3" autobuffer="autobuffer" loop="loop"></audio>
+          <a href="#" id="pause">||</a>
+          <a href="#" id="play" class="disabled">&gt;</a>
+          <div class="label">Music controls</div>
+        </div>
+	      
+	<p>From <span class="signature">Peter O'Shaughnessy</span></p>
+	      
+      </section>
+
+    </div>
 
   </body>
 </html>
+
