@@ -1,0 +1,65 @@
+html {
+    height:100%;
+}
+
+body {
+    background-color: #406B2E;
+    background-repeat: no-repeat;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5CD12E), to(#406B2E)) fixed;
+    background: -moz-linear-gradient(100% 100% 90deg, #406B2E, #5CD12E);
+    text-align: center;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+a {
+    color: #89aae1;
+}
+
+p,h1,h2,h3,h4,h5,h6,h7,div {
+    margin:0; 
+    padding:0;
+}
+
+h1 {
+    font-family: Tangerine, 'Times New Roman', serif;
+    color: #fff;
+    text-shadow: 2px  2px 2px #555;
+    font-size: 6em;
+    margin: 1em 0;
+}
+
+p {
+    margin: 2em 0;
+    color: #fff;
+    font-size: 2em;
+    font-family: tahoma, helvetica, sans-serif;
+    text-shadow: 2px  2px 2px #555;
+}
+
+.cardLinks {
+    font-size: 3em;
+}
+
+.cardLinks a {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    line-height: 150px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px  2px 2px #aaa;
+    padding-top: 160px;
+    background: url(../images/gift-purple.png) top center no-repeat;
+}
+
+.cardLinks a:first-of-type {
+    margin-right: 20px;
+    background: url(../images/gift-blue.png) top center no-repeat;
+}
+
