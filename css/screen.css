@@ -1,4 +1,6 @@
-html {height:100%;}
+html {
+    height:100%;
+}
 
 body {
     background-color: #406B2E;
@@ -9,17 +11,26 @@ body {
     width:100%;
     height:100%;
     font-size: 80%;
+    -webkit-transform-style: preserve-3d;
+    -webkit-perspective: 1000;
+    -webkit-transform: translateZ(30px);
 }
 
-a {color:#234B7B;}
-p,h1,h2,h3,h4,h5,h6,h7,div {margin:0; padding:0;}
+a {
+    color:#234B7B;
+}
+
+p,h1,h2,h3,h4,h5,h6,h7,div {
+    margin:0; 
+    padding:0;
+}
 
 #card {
     width: 920px;
     height: 630px;
     margin: 0 auto;
     position: relative;
-    top: 15px;
+    top: 10%;
 }
 
 section {
@@ -38,6 +49,7 @@ section {
     position: absolute;
     top: 0px;
     right: 0px;
+    -webkit-transform: rotateX(5deg) rotateY(0deg);
 }
 
 #frontpage {
@@ -45,90 +57,95 @@ section {
     cursor:pointer;   
     -webkit-transform-style: preserve-3d;
     -webkit-transition: -webkit-transform 1s ease-in;
-    -webkit-transform: rotateY(0deg);
+    -webkit-transform: rotateX(5deg) rotateY(0deg);
     -webkit-transform-origin: 0 0;
     -webkit-transition-property: -webkit-transform, -webkit-transform-origin;
 }
 
 #firstinnerpage {
+    display: none;
     z-index: 2;
     cursor:pointer;   
     background: -webkit-gradient(linear, 0% 0%, 5% 0%, from(#e9e1d5), to(#fff9ed));
-    -webkit-transform-style: preserve-3d;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     -webkit-transition: -webkit-transform 1s ease-out;
-    -webkit-transform: rotateY(-90deg);
+    -webkit-transform: rotateX(5deg) rotateY(-90deg);
     -webkit-transform-origin: 0 0;
     -webkit-transition-property: -webkit-transform, -webkit-transform-origin;
 }
 
 #secondinnerpage {
-  z-index: 1;
+    z-index: 1;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    -webkit-transform: rotateX(5deg) translateZ(20px);
 }
 
 #secondinnerpage .deartelegraph {
-  margin-top: 40px;
+    margin-top: 40px;
 }
 
 #secondinnerpage p {
-  margin-bottom: 1em;
-  font-size: 1.5em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
 }
 
 #secondinnerpage h3 {
-  margin: 3em 0;
-  font-size: 1.8em;
-  line-height: 1.7em;
+    margin: 3em 0;
+    font-size: 1.8em;
+    line-height: 1.7em;
 }
 
 .audiocontrols {
-  margin: 20px auto 70px;
-  width: 98px;
+    margin: 20px auto 70px;
+    width: 98px;
 }
 
 .audiocontrols .label {
-  clear: both;
-  font-size: 0.9em;
-  color: #777;
-  font-family: arial, sans-serif;
-  padding-top: 7px;
+    clear: both;
+    font-size: 0.9em;
+    color: #777;
+    font-family: arial, sans-serif;
+    padding-top: 7px;
 }
 
 .audiocontrols a {
-  display: block;
-  border: 1px solid #666;
-  border-radius: 15px;
-  width: 30px;
-  height: 30px;
-  -webkit-background-clip: content-box;
-  -webkit-background-origin: padding-box;
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), color-stop(0.5, #ccc), to(#eee));
-  box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px; 
-  float: left;
-  color: #000;
-  text-decoration: none;
-  line-height: 30px;
-  font-size: 1.2em;
-  text-shadow: #aaa 2px 2px 2px;
-  margin: 0 8px;
-  font-weight: bold;
-  cursor: pointer;
+    display: block;
+    border: 1px solid #666;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    -webkit-background-clip: content-box;
+    -webkit-background-origin: padding-box;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), color-stop(0.5, #ccc), to(#eee));
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+    -o-box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px; 
+    float: left;
+    color: #000;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 1.2em;
+    text-shadow: #aaa 2px 2px 2px;
+    margin: 0 8px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .audiocontrols a.disabled {
-  color: #777;
-  cursor: default;
+    color: #777;
+    cursor: default;
 }
 
 #secondinnerpage .signature {
-  font-family: Tangerine, serif;
-  font-size: 2em;
+    font-family: Tangerine, serif;
+    font-size: 2em;
 }
 
 #secondinnerpage footer p {
-  font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 #frontpage h1 {font-size:4em; font-weight:bold;}

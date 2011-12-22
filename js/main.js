@@ -232,18 +232,32 @@ function openCard() {
     if( $('#card').data('open') === 'true' ) return;
 
     $('#frontpage')[0].addEventListener('webkitTransitionEnd', function(event) {
+
 	      // Animation half way there, now need to animate the second half
-        $('#firstinnerpage').css('-webkit-transition','-webkit-transform 1s ease-out').css('-webkit-transform', 'rotateY(-180deg)');
+
+        $('#firstinnerpage').css('display','block');
+        $('#frontpage').css('display','none');
+
+        // For some reason, without the timeout the animation happens instantly
+        window.setTimeout(function() {
+            $('#firstinnerpage').css('-webkit-transition', '-webkit-transform 1s ease-out').css('-webkit-transform', 'rotateX(5deg) rotateY(-180deg)');
+        }, 0);
+
         this.removeEventListener('webkitTransitionEnd', arguments.callee, false);
+
     }, false);
     
     $('#firstinnerpage')[0].addEventListener('webkitTransitionEnd', function(event) {
+
 	      // Animation complete
+
 	      $('#card').data('open','true');	
+
 	      this.removeEventListener('webkitTransitionEnd', arguments.callee, false);
+
     }, false);
     
-    $('#frontpage').css('-webkit-transition','-webkit-transform 1s ease-in').css('-webkit-transform', 'rotateY(-90deg)');
+    $('#frontpage').css('-webkit-transition', '-webkit-transform 1s ease-in').css('-webkit-transform', 'rotateX(5deg) rotateY(-90deg)');
     
 	  playMusic();
 
@@ -257,17 +271,30 @@ function closeCard() {
     if( $('#card').data('open') !== 'true' ) return;
 
     $('#firstinnerpage')[0].addEventListener('webkitTransitionEnd', function(event) {
+
 	      // Animation half way there, now need to animate the second half
-        $('#frontpage').css('-webkit-transition','-webkit-transform 1s ease-out').css('-webkit-transform', 'rotateY(0deg)');
+
+        $(this).css('display','none');
+        $('#frontpage').css('display','block');
+
+        // For some reason, without the timeout the animation happens instantly
+        window.setTimeout(function() {
+            $('#frontpage').css('-webkit-transition', '-webkit-transform 1s ease-out').css('-webkit-transform', 'rotateX(5deg) rotateY(0deg)');
+        }, 0);
+
         this.removeEventListener('webkitTransitionEnd', arguments.callee, false);
+
     }, false);
     
     $('#frontpage')[0].addEventListener('webkitTransitionEnd', function(event) {
+
 	      // Animation complete
+
 	      $('#card').data('open','false');
+
     }, false);
     
-    $('#firstinnerpage').css('-webkit-transition','-webkit-transform 1s ease-in').css('-webkit-transform', 'rotateY(-90deg)');
+    $('#firstinnerpage').css('-webkit-transition', '-webkit-transform 1s ease-in').css('-webkit-transform', 'rotateX(5deg) rotateY(-90deg)');
 
     pauseMusic();
     
@@ -317,7 +344,7 @@ function renderSnow() {
 		renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
 		var material = new THREE.ParticleBasicMaterial( { map: new THREE.Texture(particleImage) } );
     
-		for (var i = 0; i < 500; i++) {
+		for (var i = 0; i < 250; i++) {
         
 				particle = new Particle3D( material);
 				particle.position.x = Math.random() * 2000 - 1000;
