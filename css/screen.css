@@ -1,10 +1,3 @@
-@font-face {
-	font-family: 'TangerineRegular';
-	src: local('☺'), url('../fonts/tangerine_regular-webfont.woff') format('woff'), url('../fonts/tangerine_regular-webfont.ttf') format('truetype'), url('../fonts/tangerine_regular-webfont.svg#webfontgHA5Vu3P') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
 html {height:100%;}
 
 body {
@@ -32,9 +25,9 @@ p,h1,h2,h3,h4,h5,h6,h7,div {margin:0; padding:0;}
 section {
     width:420px; 
     height:550px;
-    background-color:#fff;
-    background: -webkit-gradient(linear, 0% 0%, 5% 0%, from(#DFDFDF), to(#FFF));
-    background: -moz-linear-gradient(left, #DFDFDF, #FFF 5%, #FFF);
+    background-color:#fff9ed;
+    background: -webkit-gradient(linear, 0% 0%, 5% 0%, from(#e9e1d5), to(#fff9ed));
+    background: -moz-linear-gradient(left, #e9e1d5, #fff9ed 5%, #fff9ed);
     text-align:center; 
     color:#262626; 
     padding: 40px 20px;
@@ -60,7 +53,7 @@ section {
 #firstinnerpage {
     z-index: 2;
     cursor:pointer;   
-    background: -webkit-gradient(linear, 0% 0%, 5% 0%, from(#DFDFDF), to(#FFF));
+    background: -webkit-gradient(linear, 0% 0%, 5% 0%, from(#e9e1d5), to(#fff9ed));
     -webkit-transform-style: preserve-3d;
     -webkit-transition: -webkit-transform 1s ease-out;
     -webkit-transform: rotateY(-90deg);
@@ -130,7 +123,7 @@ section {
 }
 
 #secondinnerpage .signature {
-  font-family: TangerineRegular, serif;
+  font-family: Tangerine, serif;
   font-size: 2em;
 }
 
@@ -140,11 +133,11 @@ section {
 
 #frontpage h1 {font-size:4em; font-weight:bold;}
 
-.logointro {font-family:TangerineRegular,serif; font-size:3em; margin-top:10px;}
+.logointro {font-family:Tangerine,serif; font-size:3em; margin:10px 0;}
 .instructions {font-size: 1.2em; font-family:georgia,'times new roman',serif; text-align:left; padding-left:50px;}
 .instructions li {margin-top:20px;}
 .instructions .arrow {font-family:helvetica; font-weight:bold;}
 
-#tree {margin-top:50px; width:300px; height:300px;}
+#tree {margin-top:20px; width:300px; height:300px;}
 
 
