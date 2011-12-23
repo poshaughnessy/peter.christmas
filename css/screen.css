@@ -8,7 +8,6 @@ body {
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#5CD12E), to(#406B2E)) fixed;
     background: -moz-linear-gradient(100% 100% 90deg, #406B2E, #5CD12E);
     text-align: center;
-    overflow: hidden;
 }
 
 .container {
@@ -30,7 +29,7 @@ h1 {
     color: #fff;
     text-shadow: 2px  2px 2px #555;
     font-size: 6em;
-    margin: 1em 0;
+    margin: 40px 0 20px 0;
 }
 
 p {
