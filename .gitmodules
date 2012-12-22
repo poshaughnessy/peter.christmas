@@ -1,4 +1,5 @@
 
 [submodule "2012"]
 	path = 2012
-	url = git@github.com:poshaughnessy/christmascard2012.git
+	url = git://github.com/poshaughnessy/christmascard2012.git
+
