@@ -12,6 +12,7 @@ app.configure(function() {
     app.use('/images', express.static(__dirname + '/images'));
     app.use('/2010', express.static(__dirname + '/2010'));
     app.use('/2011', express.static(__dirname + '/2011'));
+    app.use('/2012', express.static(__dirname + '/2012'));
 });
 
 var port = process.env.PORT || 3000;
