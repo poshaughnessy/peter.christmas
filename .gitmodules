@@ -6,3 +6,6 @@
 [submodule "2011"]
 	path = 2011
 	url = git://github.com/poshaughnessy/christmascard2011.git
+[submodule "2010"]
+	path = 2010
+	url = git://github.com/poshaughnessy/christmascard2010.git
