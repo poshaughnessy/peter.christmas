@@ -3,3 +3,6 @@
 	path = 2012
 	url = git://github.com/poshaughnessy/christmascard2012.git
 
+[submodule "2011"]
+	path = 2011
+	url = git://github.com/poshaughnessy/christmascard2011.git
