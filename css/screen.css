@@ -47,18 +47,25 @@ p {
 .cardLinks a {
     display: inline-block;
     text-align: center;
-    width: 300px;
+    width: 250px;
     height: 150px;
     line-height: 150px;
     text-decoration: none;
     color: #fff;
     text-shadow: 2px  2px 2px #aaa;
     padding-top: 160px;
+    margin-right: 20px;
     background: url(../images/gift-purple.png) top center no-repeat;
 }
 
-.cardLinks a:first-of-type {
-    margin-right: 20px;
+.cardLinks a:last-of-type {
+    margin-right: 0;
+}
+
+.cardLinks a:nth-child(2) {
     background: url(../images/gift-blue.png) top center no-repeat;
 }
 
+.cardLinks a:nth-child(3) {
+    background: url(../images/gift-yellow.png) top center no-repeat;
+}
