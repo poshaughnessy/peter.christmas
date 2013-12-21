@@ -1,11 +1,11 @@
 {
   "name": "merry-christmas-from-peter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
-    "express": "2.2.0"
+    "express": "3.x"
   },
   "engines": {
-    "node": "0.6.13",
-    "npm": "1.1.41"
+    "node": "~0.10",
+    "npm": "1.1.x"
   }
 }
