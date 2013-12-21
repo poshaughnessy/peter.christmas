@@ -11,4 +11,4 @@
 	url = git://github.com/poshaughnessy/christmascard2010.git
 [submodule "2013"]
 	path = 2013
-	url = git://github.com:poshaughnessy/christmascard2013.git
+	url = git://github.com/poshaughnessy/christmascard2013.git
