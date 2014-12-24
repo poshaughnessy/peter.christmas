@@ -2,24 +2,34 @@
 
 For the last five years I have made a web app each Christmas, as a kind of digital Christmas 'card' for my colleagues. The first couple were basically CSS3 card effects with some flashy stuff added. The next two were WebGL, using Three.js and Goo. This year's is a mobile-friendly Pixi.js game called "Santa Wants Pies".
 
-2010 - a simple CSS3 card effect:
+### 2010 - a simple CSS3 card effect:
+
 URL: http://merrychristmasfrompeter.co.uk/2010/
+
 GitHub: https://github.com/poshaughnessy/christmascard2010
 
-2011 - improved CSS3 card:
+### 2011 - improved CSS3 card:
+
 URL: http://merrychristmasfrompeter.co.uk/2011/
+
 GitHub: https://github.com/poshaughnessy/christmascard2011
 
-2012 - WebGL animation (Three.js):
+### 2012 - WebGL animation (Three.js):
+
 URL: http://merrychristmasfrompeter.co.uk/2012/
+
 GitHub: https://github.com/poshaughnessy/christmascard2012
 
-2013 - interactive WebGL scene (Goo Engine):
+### 2013 - interactive WebGL scene (Goo Engine):
+
 URL: http://merrychristmasfrompeter.co.uk/2013/
+
 GitHub: https://github.com/poshaughnessy/christmascard2013
 
-2014 - "Santa Wants Pies", a mobile-friendly game (Pixi.js):
+### 2014 - "Santa Wants Pies", a mobile-friendly game (Pixi.js):
+
 URL: http://merrychristmasfrompeter.co.uk/2014/
+
 GitHub: https://github.com/poshaughnessy/christmascard2014
 
 This repo is the container project, just for combining and linking to the cards.
