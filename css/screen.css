@@ -10,16 +10,11 @@ body {
     text-align: center;
 }
 
-.container {
-    position: relative;
-    z-index: 1;
-}
-
 a {
     color: #89aae1;
 }
 
-p,h1,h2,h3,h4,h5,h6,h7,div {
+p,h1,h2,h3,h4,h5,h6,div {
     margin:0; 
     padding:0;
 }
@@ -29,7 +24,7 @@ h1 {
     color: #fff;
     text-shadow: 2px  2px 2px #555;
     font-size: 6em;
-    margin: 40px 0 20px 0;
+    margin: 1em 0 0.5em 0;
 }
 
 p {
@@ -49,12 +44,12 @@ p {
     text-align: center;
     width: 150px;
     height: 125px;
-    line-height: 150px;
+    line-height: 125px;
+    padding-top: 160px;
+    margin-right: 20px;
     text-decoration: none;
     color: #fff;
     text-shadow: 2px  2px 2px #aaa;
-    padding-top: 160px;
-    margin-right: 20px;
     background: url(../images/gift-purple.png) top center no-repeat;
 }
 
@@ -63,17 +58,37 @@ p {
 }
 
 .cardLinks a:nth-child(2) {
-    background: url(../images/gift-blue.png) top center no-repeat;
+    background-image: url(../images/gift-blue.png);
 }
 
 .cardLinks a:nth-child(3) {
-    background: url(../images/gift-yellow.png) top center no-repeat;
+    background-image: url(../images/gift-yellow.png);
 }
 
 .cardLinks a:nth-child(4) {
-    background: url(../images/gift-red.png) top center no-repeat;
+    background-image: url(../images/gift-red.png);
 }
 
 .cardLinks a:nth-child(5) {
-    background: url(../images/gift-silver.png) top center no-repeat;
+    background-image: url(../images/gift-silver.png);
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 0.6em;
+    }
+    h1 {
+        margin: 0.25em 0 0.25em 0;
+    }
+    p {
+        margin: 1em 0;
+    }
+    .cardLinks a {
+        width: 100px;
+        height: 75px;
+        line-height: 100px;
+        padding-top: 90px;
+        margin-right: 20px;
+        background-size: 100px 125px;
+    }
 }
