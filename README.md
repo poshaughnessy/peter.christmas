@@ -1,8 +1,6 @@
-*** MERRY CHRISTMAS FROM PETER ***
+# MERRY CHRISTMAS FROM PETER
 
-For the last five years I have made a web app each Christmas, as a kind of digital Christmas 'card' for my colleagues.
-The first couple were basically CSS3 card effects with some flashy stuff added. The next two were WebGL, using Three.js
-and Goo. This year's is a mobile-friendly Pixi.js game called "Santa Wants Pies".
+For the last five years I have made a web app each Christmas, as a kind of digital Christmas 'card' for my colleagues. The first couple were basically CSS3 card effects with some flashy stuff added. The next two were WebGL, using Three.js and Goo. This year's is a mobile-friendly Pixi.js game called "Santa Wants Pies".
 
 2010 - a simple CSS3 card effect:
 URL: http://merrychristmasfrompeter.co.uk/2010/
@@ -27,7 +25,7 @@ GitHub: https://github.com/poshaughnessy/christmascard2014
 This repo is the container project, just for combining and linking to the cards.
 
 
-* ATTRIBUTIONS & THANK YOUS
+## ATTRIBUTIONS & THANK YOUS
 
 I have lifted things from lots of different sources to make these Christmas cards - thank you to everyone whose resources I've used!
 
