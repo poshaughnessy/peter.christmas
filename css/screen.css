@@ -47,8 +47,8 @@ p {
 .cardLinks a {
     display: inline-block;
     text-align: center;
-    width: 200px;
-    height: 150px;
+    width: 150px;
+    height: 125px;
     line-height: 150px;
     text-decoration: none;
     color: #fff;
@@ -72,4 +72,8 @@ p {
 
 .cardLinks a:nth-child(4) {
     background: url(../images/gift-red.png) top center no-repeat;
+}
+
+.cardLinks a:nth-child(5) {
+    background: url(../images/gift-silver.png) top center no-repeat;
 }
