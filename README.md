@@ -34,7 +34,7 @@ URL: http://www.merrychristmasfrompeter.co.uk/2014/
 
 GitHub: https://github.com/poshaughnessy/christmascard2014
 
-### 2015 - Star Wars themed animation:
+### 2015 - Star Wars themed animation (mo.js):
 
 URL: http://2015.merrychristmasfrompeter.co.uk/
 
