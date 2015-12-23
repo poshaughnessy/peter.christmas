@@ -1,6 +1,8 @@
 # MERRY CHRISTMAS FROM PETER
 
-For the last five years I have made a web app each Christmas, as a kind of digital Christmas 'card' for my colleagues. The first couple were basically CSS3 card effects with some flashy stuff added. The next two were WebGL, using Three.js and Goo. This year's is a mobile-friendly Pixi.js game called "Santa Wants Pies".
+For the last five years I have made a web app each Christmas, as a kind of digital Christmas 'card' for my colleagues.
+The first couple were basically CSS3 card effects with some flashy stuff added. The next two were WebGL, using Three.js
+and Goo. Then 2014's was a mobile-friendly Pixi.js game called "Santa Wants Pies". This years is Star Wars themed!
 
 ### 2010 - a simple CSS3 card effect:
 
