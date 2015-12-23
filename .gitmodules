@@ -15,6 +15,4 @@
 [submodule "2014"]
 	path = 2014
 	url = https://github.com/poshaughnessy/christmascard2014
-[submodule "2015"]
-	path = 2015
-	url = https://github.com/poshaughnessy/christmascard2015.git
+

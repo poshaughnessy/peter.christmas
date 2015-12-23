@@ -30,7 +30,7 @@ h1 {
 p {
     margin: 2em 0;
     color: #fff;
-    font-size: 2em;
+    font-size: 1.8em;
     font-family: tahoma, helvetica, sans-serif;
     text-shadow: 2px  2px 2px #555;
 }
@@ -41,16 +41,18 @@ p {
 
 .cardLinks a {
     display: inline-block;
+    box-sizing: border-box;
     text-align: center;
-    width: 150px;
-    height: 125px;
-    line-height: 125px;
-    padding-top: 160px;
+    width: 100px;
+    height: 120px;
+    line-height: 100px;
+    padding-top: 100px;
     margin-right: 20px;
     text-decoration: none;
     color: #fff;
-    text-shadow: 2px  2px 2px #aaa;
+    text-shadow: 1px 1px 1px #aaa;
     background: url(../images/gift-purple.png) top center no-repeat;
+    background-size: 100px 120px;
 }
 
 .cardLinks a:last-of-type {
@@ -73,6 +75,10 @@ p {
     background-image: url(../images/gift-silver.png);
 }
 
+.cardLinks a:nth-child(6) {
+  background-image: url(../images/gift-turquoise.png);
+}
+
 @media (max-width: 600px) {
     html {
         font-size: 0.6em;
@@ -82,13 +88,5 @@ p {
     }
     p {
         margin: 1em 0;
-    }
-    .cardLinks a {
-        width: 100px;
-        height: 75px;
-        line-height: 100px;
-        padding-top: 90px;
-        margin-right: 20px;
-        background-size: 100px 125px;
     }
 }
