@@ -22,6 +22,6 @@ Over the years I have made use of various assets to make these Christmas cards -
 * mr.doob and all the [Three.js](https://github.com/mrdoob/three.js/) contributors
 * Seb Lee-Delisle for the [snowflake effect](http://sebleedelisle.com/2010/11/javascript-html5-canvas-snow-in-3d/)
 * 'Instrumental Christmas Music, On Hold Loops, Ringtones, Comedy Ringtone' - for the [Jingle Bells theme](http://www.amazon.co.uk/gp/product/B004ATZEKS/)
-* Tony Parisi for his 'WebGL Up & Running book' and examples - 2012's card is based on his [robot animation in Chapter 4](http://www.amazon.co.uk/WebGL-Up-Running-Tony-Parisi/dp/144932357X/). *To the creator of the robot model from the 'WebGL Up & Running' example - I would have bought it from TurboSquid but it's no longer up at the [URL referenced in the book](turbosquid.com/FullPreview/Index.cfm/ID/475463). If you're the creator, please get in touch with me and I'll happily pay to use it!*
+* Tony Parisi for his 'WebGL Up & Running book' and examples - 2012's card is based on his [robot animation in Chapter 4](http://www.amazon.co.uk/WebGL-Up-Running-Tony-Parisi/dp/144932357X/). *To the creator of the robot model from the 'WebGL Up & Running' example - I would have bought it from TurboSquid but it's no longer up at the [URL referenced in the book](http://turbosquid.com/FullPreview/Index.cfm/ID/475463). If you're the creator, please get in touch with me and I'll happily pay to use it!*
 
 Thanks! Get in touch at peter.oshaughnessy at gmail dot com.
