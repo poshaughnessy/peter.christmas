@@ -23,16 +23,20 @@ h1 {
     font-family: Tangerine, 'Times New Roman', serif;
     color: #fff;
     text-shadow: 2px  2px 2px #555;
-    font-size: 5em;
+    font-size: 4.5em;
     margin: 0.5em 0;
 }
 
 p {
     margin: 2em 0;
     color: #fff;
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-family: tahoma, helvetica, sans-serif;
     text-shadow: 2px  2px 2px #555;
+}
+
+.footer {
+    font-size: 1.4em;
 }
 
 .cardLinks {
