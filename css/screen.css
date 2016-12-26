@@ -15,7 +15,7 @@ a {
 }
 
 p,h1,h2,h3,h4,h5,h6,div {
-    margin:0; 
+    margin:0;
     padding:0;
 }
 
@@ -78,6 +78,11 @@ p {
 .cardLinks a:nth-child(6) {
   background-image: url(../images/gift-turquoise.png);
 }
+
+.cardLinks a:nth-child(7) {
+    background-image: url(../images/gift-orange.png);
+}
+
 
 @media (max-width: 600px) {
     html {
