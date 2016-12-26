@@ -51,16 +51,12 @@ p {
     height: 120px;
     line-height: 100px;
     padding-top: 100px;
-    margin-right: 20px;
+    margin: 0 20px 10px 20px;
     text-decoration: none;
     color: #fff;
     text-shadow: 1px 1px 1px #aaa;
     background: url(../images/gift-purple.png) top center no-repeat;
     background-size: 100px 120px;
-}
-
-.cardLinks a:last-of-type {
-    margin-right: 0;
 }
 
 .cardLinks a:nth-child(2) {
@@ -97,5 +93,16 @@ p {
     }
     p {
         margin: 1em 0;
+    }
+    .cardLinks a {
+        width: 60px;
+        height: 72px;
+        line-height: 60px;
+        padding-top: 60px;
+        text-decoration: none;
+        color: #fff;
+        text-shadow: 1px 1px 1px #aaa;
+        background: url(../images/gift-purple.png) top center no-repeat;
+        background-size: 60px 72px;
     }
 }
