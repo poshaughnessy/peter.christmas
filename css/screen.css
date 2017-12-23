@@ -83,6 +83,11 @@ p {
     background-image: url(../images/gift-orange.png);
 }
 
+.cardLinks a:nth-child(8) {
+    background-image: url(../images/gift-purple.png);
+}
+
+
 
 @media (max-width: 600px) {
     html {
