@@ -10,7 +10,8 @@ and Goo. Then 2014's was a mobile-friendly Pixi.js game called "Santa Wants Pies
 * 2013 - interactive Goo Engine (WebGL) scene - [demo](https://peter.christmas/2012/), [source](https://github.com/poshaughnessy/christmascard2013)
 * 2014 - "Santa Wants Pies", a mobile-friendly game (Pixi.js) - [demo](https://peter.christmas/2014/), [source](https://github.com/poshaughnessy/christmascard2014)
 * 2015 - Star Wars themed animation (mo.js) - [demo](https://2015.peter.christmas/), [source](https://github.com/poshaughnessy/christmascard2015)
-* 2016 - "Snag the Snowflake", another little mobile-friendly game (Pixi.js) - [demo](https://2016.peter.christmas/), [source](https://github.com/poshaughnessy/christmascard2016) 
+* 2016 - "Snag the Snowflake", another little mobile-friendly game (Pixi.js) - [demo](https://2016.peter.christmas/), [source](https://github.com/poshaughnessy/christmascard2016)
+* 2017 - a WebAROnARCore snowman and snow demo - [demo](https://2017.peter.christmas/), [source](https://github.com/poshaughnessy/christmascard2017)
 
 This repository is the container project, for combining and linking to the cards.
 
